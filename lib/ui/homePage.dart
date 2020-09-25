@@ -13,10 +13,10 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:gradient_widgets/gradient_widgets.dart';
 import 'package:http/http.dart' as http;
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:Musify/API/saavn.dart';
-import 'package:Musify/music.dart';
-import 'package:Musify/style/appColors.dart';
-import 'package:Musify/ui/aboutPage.dart';
+import 'package:musicappfree/API/saavn.dart';
+import 'package:musicappfree/music.dart';
+import 'package:musicappfree/style/appColors.dart';
+import 'package:musicappfree/ui/aboutPage.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:progress_dialog/progress_dialog.dart';
 
@@ -328,7 +328,7 @@ class AppState extends State<Musify> {
                       padding: const EdgeInsets.only(left: 42.0),
                       child: Center(
                         child: GradientText(
-                          "Musify.",
+                          "Music App Free",
                           shaderRect: Rect.fromLTWH(13.0, 0.0, 100.0, 50.0),
                           gradient: LinearGradient(colors: [
                             Color(0xff4db6ac),
